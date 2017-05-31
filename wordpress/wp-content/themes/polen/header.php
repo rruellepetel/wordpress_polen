@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri()?>/static/external/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri()?>">
+    <?php wp_head(); ?>
 </head>
 <body>
 

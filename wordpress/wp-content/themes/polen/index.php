@@ -2,7 +2,7 @@
 
 get_header();
 
-wp_head();
+
  ?>
 
  <div class="container">
@@ -26,7 +26,7 @@ wp_head();
         <div class="col-md-4">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="<?php echo get_template_directory_uri()?>/static/images/pep8.png" alt="">
+                    <img src="<?php echo get_template_directory_uri()?>/static/images/pep8.png" alt="" width="100px" height="100px">
                 </div>
                 <div class="col-md-8">
                     <h4>Pépinière d'entreprises</h4>
@@ -41,7 +41,7 @@ wp_head();
         <div class="col-md-4">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="<?php echo get_template_directory_uri()?>/static/images/tic8.png" alt="">
+                    <img src="<?php echo get_template_directory_uri()?>/static/images/tic8.png" alt="" width="100px" height="100px">
 
                 </div>
                 <div class="col-md-8">
@@ -56,7 +56,7 @@ wp_head();
         <div class="col-md-4">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="<?php echo get_template_directory_uri()?>/static/images/tele8.png" alt="">
+                    <img src="<?php echo get_template_directory_uri()?>/static/images/tele8.png" alt="" width="100px" height="100px">
 
                 </div>
                 <div class="col-md-8">
@@ -148,19 +148,27 @@ wp_head();
         </div>
 
       </div>
-
+  </div>
 
 
     </div>
-<div class="row">
+<div class="row newsletter">
+  <section>
+
   <h2>Inscription à la Newsletter</h2>
   <input type="text" name="" value="">
   <button type="submit" name="button">Envoyer</button>
+</section>
+
+<section>
+
   <h2>Agenda</h2>
   <p>Aucun Evenement</p>
   <span class="glyphicon glyphicon-bitcoin" aria-hidden="true"></span>
+</section>
+
 </div>
-  </div>
+
 
 
 

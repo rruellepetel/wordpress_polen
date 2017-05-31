@@ -8,6 +8,17 @@ Description: polen
 
 */
 
+body {
+    background-color:lightgrey;
+}
+
+
+.container {
+     box-shadow: 0px 0px 5px rgb(146, 151, 151);
+}
+
+
+
 ul {
     display: flex;
     justify-content: space-around;
@@ -21,4 +32,21 @@ li {
 .bandeau {
     position: absolute;
     margin-top: -12em;
+}
+
+.col-md-8 {
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
 }
