@@ -1,11 +1,23 @@
 <?php
 
-get_header()
+get_header();
+
 
  ?>
 
  <div class="container">
   <div class="row">
+      <?php
+      wp_nav_menu(
+          array(
+              'theme_location' => 'secondary', /* identifiant du menu pour WP */
+              'menu_class' => 'menu-secondaire',   /* classe css */
+              'container' => 'div',            /* élément HTML conteneur */
+              'link_before' => '<span>',     /* élément HTML avant le lien */
+              'link_after' => '</span>'      /* élément HTML après le lien */
+          )
+      );
+       ?>
     <div class="col-md-12">
       <?php echo do_shortcode("[metaslider id=4]"); ?>
       <img src="<?php echo get_template_directory_uri()?>/static/images/bandeau-blanc.png" alt="">
