@@ -2,7 +2,7 @@
 
 get_header();
 
-
+wp_head();
  ?>
 
  <div class="container">
@@ -20,7 +20,7 @@ get_header();
        ?>
     <div class="col-md-12">
       <?php echo do_shortcode("[metaslider id=4]"); ?>
-      <img src="<?php echo get_template_directory_uri()?>/static/images/bandeau-blanc.png" alt="">
+      <img src="<?php echo get_template_directory_uri()?>/static/images/bandeau-blanc.png" alt="" class="bandeau">
 
       <div class="row">
         <div class="col-md-4">
