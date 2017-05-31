@@ -7,22 +7,23 @@ get_header();
 
  <div class="container">
   <div class="row">
-      <?php
-      wp_nav_menu(
-          array(
-              'theme_location' => 'secondary', /* identifiant du menu pour WP */
-              'menu_class' => 'menu-secondaire',   /* classe css */
-              'container' => 'div',            /* élément HTML conteneur */
-              'link_before' => '<span>',     /* élément HTML avant le lien */
-              'link_after' => '</span>'      /* élément HTML après le lien */
-          )
-      );
-       ?>
+
     <div class="col-md-12">
       <?php echo do_shortcode("[metaslider id=4]"); ?>
-      <img src="<?php echo get_template_directory_uri()?>/static/images/bandeau-blanc.png" alt="" class="bandeau">
+      <img src="<?php echo get_template_directory_uri()?>/static/images/bandeau-blanc.png" alt="" class="bandeau" width="1150px">
 
       <div class="row">
+          <?php
+          wp_nav_menu(
+              array(
+                  'theme_location' => 'secondary', /* identifiant du menu pour WP */
+                  'menu_class' => 'menu-secondaire',   /* classe css */
+                  'container' => 'div',            /* élément HTML conteneur */
+                  'link_before' => '<span>',     /* élément HTML avant le lien */
+                  'link_after' => '</span>'      /* élément HTML après le lien */
+              )
+          );
+          ?>
         <div class="col-md-4">
             <div class="row">
                 <div class="col-md-4">
@@ -160,11 +161,11 @@ get_header();
   <button type="submit" name="button">Envoyer</button>
 </section>
 
-<section>
+<section class="agenda">
 
   <h2>Agenda</h2>
   <p>Aucun Evenement</p>
-  <span class="glyphicon glyphicon-bitcoin" aria-hidden="true"></span>
+
 </section>
 
 </div>
