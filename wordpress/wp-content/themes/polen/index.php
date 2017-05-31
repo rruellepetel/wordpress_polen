@@ -24,10 +24,18 @@ wp_head();
 
       <div class="row">
         <div class="col-md-4">
-          <img src="<?php echo get_template_directory_uri()?>/static/images/pep8.png" alt="">
-          <h4>Pépinière d'entreprises</h4>
-          <p>Hébergement des entreprises innovantes du département</p>
-          <a href="#">Infos</a>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="<?php echo get_template_directory_uri()?>/static/images/pep8.png" alt="">
+                </div>
+                <div class="col-md-8">
+                    <h4>Pépinière d'entreprises</h4>
+                    <p>Hébergement des entreprises innovantes du département</p>
+                    <a href="#">Infos</a>
+                </div>
+
+            </div>
+
         </div>
         <div class="col-md-4">
           <img src="<?php echo get_template_directory_uri()?>/static/images/tic8.png" alt="">
@@ -47,7 +55,7 @@ wp_head();
           <h2>Actus Entreprises Innovantes</h2>
           <?php
 
-                $args = array('cat'=> '3');
+                $args = array('category_name'    => 'innovantes');
 
                 $posts = get_posts($args);
 
@@ -73,7 +81,7 @@ wp_head();
           <h2>Actus usages des tic en entreprise</h2>
           <?php
 
-                $args = array('cat'=> '4');
+                $args = array('category_name'    => 'entreprise');
 
                 $posts = get_posts($args);
 
@@ -99,7 +107,7 @@ wp_head();
           <h2>Actus Télétravail</h2>
           <?php
 
-                $args = array('cat'=> '5');
+                $args = array('category_name'    => 'teletravail');
 
                 $posts = get_posts($args);
 
