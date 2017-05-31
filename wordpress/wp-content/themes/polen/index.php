@@ -37,17 +37,35 @@ wp_head();
             </div>
 
         </div>
+
         <div class="col-md-4">
-          <img src="<?php echo get_template_directory_uri()?>/static/images/tic8.png" alt="">
-          <h4>Centre de ressources TIC</h4>
-          <p>Un espace dédié aux nouvelles technologies pour les entreprises</p>
-          <a href="#">Infos</a>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="<?php echo get_template_directory_uri()?>/static/images/tic8.png" alt="">
+
+                </div>
+                <div class="col-md-8">
+                    <h4>Centre de ressources TIC</h4>
+                    <p>Un espace dédié aux nouvelles technologies pour les entreprises</p>
+                    <a href="#">Infos</a>
+                </div>
+            </div>
+
+
         </div>
         <div class="col-md-4">
-          <img src="<?php echo get_template_directory_uri()?>/static/images/tele8.png" alt="">
-          <h4>Le Télécentre SoLozère</h4>
-          <p>Un équipement au services des télétravailleurs</p>
-          <a href="#">Infos</a>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="<?php echo get_template_directory_uri()?>/static/images/tele8.png" alt="">
+
+                </div>
+                <div class="col-md-8">
+                    <h4>Le Télécentre SoLozère</h4>
+                    <p>Un équipement au services des télétravailleurs</p>
+                    <a href="#">Infos</a>
+                </div>
+            </div>
+
         </div>
       </div>
       <div class="row">
