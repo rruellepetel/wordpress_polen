@@ -14,6 +14,7 @@ get_header()
 
     echo do_shortcode("[metaslider id=4]");
 
+
             // endwhile
                          ?>
     </div>
