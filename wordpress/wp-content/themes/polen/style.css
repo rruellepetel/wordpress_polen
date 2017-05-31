@@ -17,3 +17,8 @@ li {
     list-style: none;
     text-transform: uppercase;
 }
+
+.bandeau {
+    position: absolute;
+    margin-top: -12em;
+}
