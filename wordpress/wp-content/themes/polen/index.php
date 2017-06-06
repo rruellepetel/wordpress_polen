@@ -80,7 +80,7 @@ get_header();
 
                 foreach ($posts as $post) {
 
-                    setup_postdata(); ?>
+                    setup_postdata($post); ?>
 
                     <?php the_post_thumbnail() ?>
 
@@ -106,7 +106,7 @@ get_header();
 
                 foreach ($posts as $post) {
 
-                    setup_postdata(); ?>
+                    setup_postdata($post); ?>
 
                     <?php the_post_thumbnail() ?>
 
@@ -132,7 +132,7 @@ get_header();
 
                 foreach ($posts as $post) {
 
-                    setup_postdata(); ?>
+                    setup_postdata($post); ?>
 
                     <?php the_post_thumbnail() ?>
 
